@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "compile": "mkdir -p dist; cp src/*.{html,json} dist; webpack",
+    "clean": "rm -r dist"
+  },
+  "dependencies": {
+    "d3": "^4.11.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1"
+  }
+}
